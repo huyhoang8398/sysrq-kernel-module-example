@@ -4,11 +4,13 @@ cd sysrq-kernel-module-example
 
 ## Kernel Module
 make
+
 make test
 
 ## Userspace
 
 gcc client.c -o client
+
 ./client
 
 ## Test sysrq
